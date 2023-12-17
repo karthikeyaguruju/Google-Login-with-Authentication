@@ -1,0 +1,95 @@
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #e7e7e7;
+      animation: gradient 5s infinite alternate ease-in-out;
+    }
+
+  
+    .container {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 4px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease-in-out;
+    }
+    .logo {
+        margin-bottom: 20px;
+        border: 1px solid #333; /* Add a border around the logo */
+        padding: 10px; /* Adjust padding as needed */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+      }
+    
+      .logo img {
+        width: 80px; /* Adjust the width of the logo */
+        border-radius: 10px; /* Make the logo image round */
+      }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+  
+    .google-signin {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .google-signin button {
+      background-color: #fff;
+      border: 1px solid #321010;
+      padding: 10px 20px;
+      border-radius: 3px;
+      margin-left: 50px;
+      font-weight: 60px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .google-signin button:hover {
+      transform: scale(1.1);
+    }
+  
+    .google-signin button img {
+      width: 20px;
+      margin-right: 10px;
+    }
+  
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+  
+    .footer a {
+      color: #333;
+      text-decoration: none;
+    }
+  
+  
+    /* Replace with your logo */
+    .logo img {
+      content: url("https://i.ibb.co/tpfByxy/logo.jpg");
+    }
+  
+    /* Replace with Google Sign-In button image */
+    .google-signin button img {
+      content: url("https://www.google.com/images/hpp/ic_wahlberg_product_core_48.png8.png");
+    }
